@@ -2,14 +2,6 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-var todaysDate = now().format('dddd, MMM Do YYYY');
-$("#currentDay").html (todaysDate);
-
-$(document).go(function(){
-  $("save").on("click", fucntion () {
-    var   
-  })
-})
 
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
@@ -31,4 +23,3 @@ $(document).go(function(){
   // TODO: Add code to display the current date in the header of the page.
 
 
-  
